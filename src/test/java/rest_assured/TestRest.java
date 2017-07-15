@@ -25,6 +25,7 @@ public class TestRest {
 	public void TestJsonSchema() {
 		// get("/products").then().assertThat().body(
 		// matchesJsonSchemaInClasspath("products-schema.json").using(settings().with().checkedValidation(false)));
+		
 	}
 
 	@Test
@@ -37,7 +38,7 @@ public class TestRest {
 
 	@Test
 	public void TestOther() {
-		System.out.println("hello");
+		System.out.println("hello world");
 	}
 
 }
