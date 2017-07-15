@@ -1,5 +1,14 @@
 # testing poc
-linux(deepin) selenium 3.4 chromedriver2.29 eclipse maven java testNG jdk1.8 
+- linux(deepin)  
+- chromedriver2.29 
+- eclipse 
+- Postman 
+- maven 
+
+- jdk1.8
+- testNG 
+- Rest-Assured API testing
+- selenium 3.4 UI testing
 
 ## quick start
 - clone code from repository

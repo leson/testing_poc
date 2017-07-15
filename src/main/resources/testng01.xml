@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="test.test"/>
+      <class name="rest_assured.TestRest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

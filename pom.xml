@@ -73,7 +73,7 @@
 				<version>2.20</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>target/classes/testng.xml</suiteXmlFile>
+						<suiteXmlFile>target/classes/testng01.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
