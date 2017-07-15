@@ -3,6 +3,9 @@ package rest_assured;
 import io.restassured.RestAssured;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
+
+import org.hamcrest.Matchers;
+
 import io.restassured.module.jsv.JsonSchemaValidator.*;
 import io.restassured.response.Response;
 
@@ -15,7 +18,7 @@ public class TestRest {
 	public void before() {
 		RestAssured.baseURI = "https://api.github.com";
 		RestAssured.port = 443;
-		RestAssured.basePath="/users";
+		RestAssured.basePath = "/users";
 	}
 
 	@Test
@@ -26,10 +29,15 @@ public class TestRest {
 
 	@Test
 	public void TestValue() {
-		given().when().get("/leson").body();
-		
-		Response res=RestAssured.get("/leson");
+		given().when().get("/leson").then().body("login", Matchers.equalTo("leso"));
+
+		Response res = RestAssured.get("/leson");
 		System.out.println(res.asString());
+	}
+
+	@Test
+	public void TestOther() {
+		System.out.println("hello");
 	}
 
 }
