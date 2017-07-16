@@ -7,7 +7,7 @@
 
 - jdk1.8
 - testNG 
-- Rest-Assured API testing
+- Rest-Assured(放心) API testing
 - selenium 3.4 UI testing
 
 ## quick start
