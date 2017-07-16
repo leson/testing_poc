@@ -25,7 +25,12 @@ mvn eclipse:eclipse
 - convert to maven project
     - right click project 
     - Configure --> Convert to Maven Project
-    
+
+- check project's properties
+	- project facets
+	- java build path
+	- java compiler
+	
 - execute testing via testng.xml
 ```bash
 mvn test
