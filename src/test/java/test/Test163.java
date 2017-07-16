@@ -8,7 +8,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class test163 {
+public class Test163 {
 	WebDriver driver = null;
 	String url = "";
 
