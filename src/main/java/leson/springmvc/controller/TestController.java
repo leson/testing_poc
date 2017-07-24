@@ -1,5 +1,8 @@
 package leson.springmvc.controller;
 
-public class TestController {
+import org.springframework.stereotype.Controller;
 
+@Controller
+public class TestController {
+	
 }

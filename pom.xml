@@ -16,6 +16,13 @@
 		</dependency>
 
 		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>3.4.0</version>
@@ -28,32 +35,17 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!--Rest assured依赖包 -->
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>rest-assured</artifactId>
 			<version>3.0.3</version>
-			<scope>test</scope><!--会发现我们自己建的类无法使用，是因为设置了只在测试时使用，用于编译和运行测试代码。不会随项目发布，删除<scope>后所有类都可使用 -->
+			<scope>test</scope>
 		</dependency>
-		<!--独立Json path依赖包 -->
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>json-path</artifactId>
 			<version>3.0.3</version>
 		</dependency>
-		<!--独立的Xml path依赖包 -->
-		<!-- <dependency> -->
-		<!-- <groupId>io.rest-assured</groupId> -->
-		<!-- <artifactId>xml-path</artifactId> -->
-		<!-- <version>3.0.3</version> -->
-		<!-- </dependency> -->
-
-		<!-- <dependency> -->
-		<!-- <groupId>io.rest-assured</groupId> -->
-		<!-- <artifactId>spring-mock-mvc</artifactId> -->
-		<!-- <version>3.0.3</version> -->
-		<!-- <scope>test</scope> -->
-		<!-- </dependency> -->
 
 		<dependency>
 			<groupId>io.rest-assured</groupId>
@@ -61,8 +53,19 @@
 			<version>3.0.3</version>
 		</dependency>
 
-	</dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>4.3.10.RELEASE</version>
+		</dependency>
 
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>4.3.10.RELEASE</version>
+		</dependency>
+
+	</dependencies>
 
 	<build>
 		<finalName>testNG</finalName>
