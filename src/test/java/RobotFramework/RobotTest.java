@@ -1,5 +1,5 @@
 package RobotFramework;
 
-public class Test {
+public class RobotTest {
 
 }
